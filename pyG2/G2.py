@@ -411,6 +411,7 @@ class Chart:
         Chart
 
         '''
+        
         code = "chart.scale('%s',%s)"%(variable,config)
         self.scale_details.append(code)
         return self
